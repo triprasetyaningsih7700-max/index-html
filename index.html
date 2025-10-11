@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrasi Akun</h1>
+    <form action="index.html" method="get">
+        <fieldset>
+            <legend>Formulir Registrasi</legend>
+            <p>
+            <label for="Masukkan Nama :">Masukkan Nama</label>
+            <input type="nama" name="nama" id="nama" required placeholder="Silakan masukkan nama">
+            </p>
+            <p>
+            <label for="Masukkan NIM :">Masukkan NIM</label>
+            <input type="nim" name="nim" id="nim" required placeholder="Silakan masukkan NIM">
+            </p>
+            <p>
+            <label for="Masukkan email :">Masukkan email</label>
+            <input type="email" name="email" id="email" required placeholder="Silakan masukkan email">
+            </p>
+            <p>
+                <label for="gender">Jenis kelamin</label><br>
+                <input type="radio" name="laki-laki" id="laki-laki"><label for="laki-laki">laki-laki</label>
+                <input type="radio" name="perempuan" id="perempuan"><label for="perempuan">perempuan</label>
+            </p>
+
+                <label for="">Agama</label>
+            <select name="agama">
+                <option value="islam">islam</option>
+                <option value="kristen">kristen</option>
+                <option value="hindu">hindu</option>
+                <option value="buddha">buddha</option>
+                <option value="konghucu">konghucu</option>
+            </select>
+
+            <p>
+                <label for="Masukkan password">Masukkan password</label>
+                <input type="password" name="password" id="password" required placeholder="Silakan masukkan password">
+            </p>
+            <p>
+                <label for="konfimasi password">konfimasi password</label>
+                <input type="password" name="password" id="password" required placeholder="Silakan konfimasi password">
+            </p>
+
+            <button type="submit">Daftar</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
